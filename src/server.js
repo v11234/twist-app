@@ -32,7 +32,7 @@ app.use((err, req, res, next) => {
 });
 
 const PORT = ENV.PORT || 5001;
-app.get("/api/health", (req, res) => {
+app.get("/", (req, res) => {
   res.send('Hello');
 });
 
